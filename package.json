@@ -1,0 +1,35 @@
+{
+    "name": "docker_web_app",
+    "version": "1.0.0",
+    "description": "Node.js on Docker",
+    "author": "First Last <first.last@example.com>",
+    "main": "server.js",
+    "private": true,
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "@nestjs/axios": "^3.0.2",
+        "@nestjs/common": "^10.3.8",
+        "@nestjs/core": "^10.3.8",
+        "@nestjs/jwt": "^10.2.0",
+        "@nestjs/microservices": "^10.3.8",
+        "@nestjs/mongoose": "^10.0.6",
+        "@nestjs/passport": "^10.0.3",
+        "@nestjs/testing": "^10.3.8",
+        "bcryptjs": "^2.4.3",
+        "class-validator": "^0.14.1",
+        "cors": "^2.8.5",
+        "express": "^4.19.2",
+        "ioredis": "^5.4.1",
+        "kafkajs": "^2.2.4",
+        "mongoose": "^8.3.3",
+        "nodemailer": "^6.9.13",
+        "passport": "^0.7.0",
+        "passport-local": "^1.0.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.24.5",
+        "@babel/preset-env": "^7.24.5"
+    }
+}
